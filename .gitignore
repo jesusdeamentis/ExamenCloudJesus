@@ -1,2 +1,4 @@
 vcap-local.json
 node_modules
+
+credentials.py

@@ -5,13 +5,15 @@
 <html>
 <body>
 
-Texto a analizar: <input type="text" id="text" value=TextToAnalyze><br>
+Text to Analyze: <input type="text" id="input" ><br>
 
 <button onclick="ButtonFunction()">Analyze</button>
 
 <script>
 function ButtonFunction() {
+  document.getElementById("input").value = TextToAnalyze;
   res;
+  print(res)
 }
 </script>
 

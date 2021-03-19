@@ -10,6 +10,6 @@ ta = ToneAnalyzerV3(version='2017-09-21', authenticator=authenticator)
 ta.set_service_url(Credentials.url)
 
 #Analyze Tone
-res = ta.tone('I take care of my skin so there is something shining in here, because my hopes and dreams are not going to do it').get_result()
+res = ta.tone('shame on your cow, your life and your ancestors').get_result()
 
 print (res)
